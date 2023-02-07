@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar {
+  display: flex;
+  list-style: none;
+  text-align: center;
+}
+
+.navbar li {
+  font-size: 1.5rem;
+  padding: 15px;
+}
