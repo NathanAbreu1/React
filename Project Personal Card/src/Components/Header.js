@@ -1,8 +1,9 @@
 import React from "react";
+import img from "/Users/natejpg/Workspace/React/Project Personal Card/src/images/me.jpeg"
 
 export default function Header(){
 
   return(
-    <h1>Hello World</h1>
+    <img src={img} ></img>
   )
 }
