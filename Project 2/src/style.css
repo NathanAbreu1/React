@@ -2,12 +2,24 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: "Inter", sans-serif;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo h1 {
+  color: #61d4fb;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
+  background-color: #21222a;
+  height: 120px;
+  padding: 20px 25px;
 }
 
 .navbar {
@@ -19,4 +31,5 @@
 .navbar li {
   font-size: 1.5rem;
   padding: 15px;
+  color: #fff;
 }
