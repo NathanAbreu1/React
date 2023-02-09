@@ -5,11 +5,9 @@ export default function Navbar(){
 
   return(
     <header className="header">
-      <div className="title">
-        <h1>ReactFacts</h1>
-      </div>
-      <div className="logo">
+        <div className="logo">
       <img src={reactlogo}></img>
+      <h1>ReactFacts</h1>
       </div>
       <ul className="navbar">
         <li>Course</li>

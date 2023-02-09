@@ -13,16 +13,7 @@
   background-color: #21222a;
   height: 15vh;
   width: 100%;
-  padding: 0px 30px;
-}
-
-.title {
-  background-color: gray;
-}
-
-.title h1 {
-  color: #61d4fb;
-  font-size: 4rem;
+  padding: 0px 10px;
 }
 
 .logo {
@@ -30,23 +21,29 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 500px;
 }
 
 .logo img {
   width: 120px;
   height: 110px;
+  padding: 10px;
+}
+
+.logo h1 {
+  color: #61d4fb;
+  font-size: 3rem;
 }
 
 .navbar {
   display: flex;
   list-style: none;
+  width: 450px;
   text-align: center;
 }
 
 .navbar li {
   position: relative;
-  padding-left: 10px;
+  padding-right: 20px;
   font-size: 1.8rem;
   color: #fff;
   cursor: pointer;
