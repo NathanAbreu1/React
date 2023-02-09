@@ -43,10 +43,15 @@
 
 .navbar li {
   position: relative;
-  padding-right: 20px;
+  margin-right: 20px;
   font-size: 1.8rem;
   color: #fff;
   cursor: pointer;
+  transition: 0.5s;
+}
+
+.navbar li:hover {
+  border-bottom: 0.5px #fff solid;
 }
 
 .main {
