@@ -1,5 +1,5 @@
 import React from "react";
-import img from "/Users/natejpg/Workspace/React/Project Personal Card/src/images/me.jpeg"
+import img from "/Users/natejpg/Workspace/React/Project Personal Card/src/images/me3.png"
 
 export default function Header(){
 
