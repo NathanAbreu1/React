@@ -1,9 +1,13 @@
 import React from "react";
-import Navbar from "./Navbar";
+import Navbar from "./Components/Navbar";
+import Main from "./Components/Main";
 
 export default function App(){
   
   return(
-  <Navbar></Navbar>
+    <div>
+      <Navbar></Navbar>
+      <Main></Main>
+   </div>
   )
 }
