@@ -141,8 +141,10 @@ section {
 
 .footer .icon {
   font-size: 2.3rem;
+  color: #fff;
 }
 
 .footer .icon:hover {
   cursor: pointer;
+  color: gray;
 }
