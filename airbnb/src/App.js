@@ -1,14 +1,9 @@
 import React from "react";
-
-function Test(){
-  return(
-    <h1>Hello Poppers</h1>
-  )
-}
+import Navbar from "./Navbar";
 
 export default function App(){
   
   return(
-  <Test></Test>
+  <Navbar></Navbar>
   )
 }
