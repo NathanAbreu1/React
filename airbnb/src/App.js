@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./Components/Navbar";
 import Main from "./Components/Main";
 import Card from "./Components/Card";
+import Props from "./Components/Props";
 
 export default function App(){
   
@@ -9,6 +10,7 @@ export default function App(){
     <div>
       <Navbar></Navbar>
       <Card></Card>
+      <Props></Props>
    </div>
   )
 }
