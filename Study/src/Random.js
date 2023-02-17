@@ -1,7 +1,7 @@
 import React from "react"
 import ReactDOM from "react-dom/client"
 
-export default function Props(){
+export default function testingPropsAndHours(){
 
   const date = new Date();
   const hours = date.getHours();
