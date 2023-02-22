@@ -63,16 +63,30 @@ body {
   color: #ff5a5f;
 }
 
+.card-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .card {
-  width: 300px;
-  height: 400px;
+  width: 400px;
+  position: relative;
+  display: flex;
   align-items: center;
   text-align: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  flex-direction: column;
 }
 
 .card img {
   width: 100%;
-  height: 100%;
+  height: 500px;
   border-radius: 1rem;
 }
 
@@ -87,6 +101,16 @@ body {
   padding: 0px 10px;
 }
 
-.card span {
+.card p span {
   font-style: bold;
+}
+
+.card-badge {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: #fff;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
 }

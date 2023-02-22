@@ -1,11 +1,10 @@
 import React from "react"
-import img from "/Users/natejpg/Workspace/React/Airbnb/src/images/grid.png";
 
 export default function Main(){
   return(
   <div className="main">
     <div>
-    <img src={img}></img>
+    <img src="../images/grid.png"></img>
     </div>
     <div className="content">
     <h1>Online Experiences</h1>

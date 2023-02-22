@@ -11,14 +11,16 @@ export default function App(){
   
   return(
     <Card
+    key = {item.id}
     img = {item.coverImg}
     name = {item.title}
-    rating = {item.stats.reviewCount}
+    rating = {item.stats.rating}
     reviewCount = {item.reviewCount}
-    country = {item.reviewCount}
-    title = {item.reviewCount}
+    country = {item.country}
+    title = {item.title}
     location = {item.location}
     price = {item.price}
+    openspots = {item.openSpots}
       />
     )
   })
@@ -27,7 +29,9 @@ export default function App(){
     <div>
       <Navbar/>
       <Main/>
+      <section className="card-list">
       {cards}
+      </section>
     </div>
   )
 }
