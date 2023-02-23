@@ -29,39 +29,52 @@ export default  [
         id: 3,
         title: "Group Mountain Biking",
         description: "Experience the beautiful Norwegian landscape and meet new friends all while conquering rugged terrain on your mountain bike. (Bike provided!)",
-        price: 50,
+        price: 200,
         coverImg: "../images/pexels3.jpg",
         stats: {
             rating: 4.8,
             reviewCount: 50
         },
-        location: "Norway",
+        location: "Germany",
         openSpots: 0,
     },
     {
         id: 4,
-        title: "Group Mountain Biking",
+        title: "Learn How to code",
         description: "Experience the beautiful Norwegian landscape and meet new friends all while conquering rugged terrain on your mountain bike. (Bike provided!)",
-        price: 50,
-        coverImg: "../images/pexels1.jpeg",
+        price: 129,
+        coverImg: "../images/pexels4.jpeg",
         stats: {
             rating: 4.8,
             reviewCount: 25
         },
-        location: "Norway",
+        location: "Online",
         openSpots: 3,
     },
     {
         id: 5,
-        title: "Group Mountain Biking",
+        title: "Singing with Ana",
         description: "Experience the beautiful Norwegian landscape and meet new friends all while conquering rugged terrain on your mountain bike. (Bike provided!)",
-        price: 50,
-        coverImg: "../images/pexels2.webp",
+        price: 100,
+        coverImg: "../images/pexels5.webp",
         stats: {
             rating: 4.8,
-            reviewCount: 60
+            reviewCount: 25
         },
-        location: "Norway",
-        openSpots: 0,
+        location: "India",
+        openSpots: 3,
+    },
+    {
+        id: 6,
+        title: "How to play the guitar",
+        description: "Experience the beautiful Norwegian landscape and meet new friends all while conquering rugged terrain on your mountain bike. (Bike provided!)",
+        price: 250,
+        coverImg: "../images/pexels6.jpeg",
+        stats: {
+            rating: 4.8,
+            reviewCount: 25
+        },
+        location: "Online",
+        openSpots: 3,
     },
 ]

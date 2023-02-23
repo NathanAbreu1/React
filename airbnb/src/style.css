@@ -68,9 +68,6 @@ body {
   flex-wrap: nowrap;
   gap: 20px;
   overflow-x: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .card {
@@ -82,6 +79,7 @@ body {
   justify-content: center;
   flex: 0 0 auto;
   flex-direction: column;
+  padding-bottom: 15px;
 }
 
 .card img {
@@ -97,12 +95,22 @@ body {
   justify-content: center;
 }
 
+.card .card-stats .rating {
+  font-size: 1.3rem;
+}
+
+.card .title {
+  font-size: 1.4rem;
+  letter-spacing: none;
+  padding: 2px;
+}
+
 .card .card-stats span {
   padding: 0px 10px;
 }
 
 .card p span {
-  font-style: bold;
+  font-size: 1.2rem;
 }
 
 .card-badge {

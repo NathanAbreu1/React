@@ -13,14 +13,12 @@ export default function App(){
     <Card
     key = {item.id}
     img = {item.coverImg}
-    name = {item.title}
+    title = {item.title}
     rating = {item.stats.rating}
     reviewCount = {item.reviewCount}
-    country = {item.country}
-    title = {item.title}
     location = {item.location}
     price = {item.price}
-    openspots = {item.openSpots}
+    openSpots = {item.openSpots}
       />
     )
   })
