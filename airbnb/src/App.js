@@ -12,13 +12,7 @@ export default function App(){
   return(
     <Card
     key = {item.id}
-    img = {item.coverImg}
-    title = {item.title}
-    rating = {item.stats.rating}
-    reviewCount = {item.reviewCount}
-    location = {item.location}
-    price = {item.price}
-    openSpots = {item.openSpots}
+    item = {item}
       />
     )
   })
