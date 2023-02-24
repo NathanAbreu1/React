@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./Components/Header";
-import Data from "./Data";
 import Card from "./Components/Card";
+import Data from "./Data";
 
 export default function App(){
 
@@ -15,12 +15,11 @@ export default function App(){
     )
   })
 
-
   return(
     <div>
       <Header/>
       <section className="main">
-          {cards}
+        {cards}
       </section>
     </div>
   )
