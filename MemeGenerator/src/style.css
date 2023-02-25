@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+.header {
+  width: 100%;
+  height: 125px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #672280;
+  padding: 0px 30px;
+}
+
+.header .logo {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-self: center;
+}
+
+.header .logo img {
+  width: 90px;
+  height: 90px;
+  cursor: pointer;
+}
+
+.header .logo img:hover {
+  transition: 0.5s;
+  width: 120px;
+  height: 110px;
+}
+
+.header .logo h1 {
+  color: #fff;
+  padding-left: 25px;
+  font-size: 2.5rem;
+}
+
+.header .items p {
+  font-size: 1.5rem;
+  color: #fff;
+}

@@ -1,11 +1,11 @@
 import React from "react";
-import Test from "./components/Test";
+import Header from "./components/Header";
 
 export default function App(){
 
   return(
     <div>
-      <Test/>
+      <Header/>
     </div>
   )
 }
